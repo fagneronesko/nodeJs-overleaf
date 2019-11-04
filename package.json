@@ -1,0 +1,27 @@
+{
+  "name": "nodeJs-overleaf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FagnerOnesko/nodeJs-overleaf.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FagnerOnesko/nodeJs-overleaf/issues"
+  },
+  "homepage": "https://github.com/FagnerOnesko/nodeJs-overleaf#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.0.6",
+    "mongodb": "^3.3.3",
+    "nodemon": "^1.19.4"
+  }
+}
