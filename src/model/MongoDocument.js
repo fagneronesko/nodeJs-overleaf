@@ -25,7 +25,6 @@ module.exports = class MongoDocument {
         });
     }
 
-
     static close() {
         conn.then((conn) => {
             conn.close();
