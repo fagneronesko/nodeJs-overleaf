@@ -5,6 +5,7 @@ const path = require('path')
 
 app.use(express.json());
 app.use(routes)
+app.use
 //config do hbs
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'hbs');

@@ -4,6 +4,7 @@ class User extends MongoDocument{
 
     constructor(data){
         super(data)
+        this.nome = data.nome;
         this.email = data.email;
         this.senha = data.senha;
         this.cep = data.cep;

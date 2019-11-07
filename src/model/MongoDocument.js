@@ -25,6 +25,13 @@ module.exports = class MongoDocument {
         });
     }
 
+    async find (email,collection) {
+        if(await conn.db.collection(collection).findOne({email: {$eq: email}}).toArray())
+            return true;
+        else
+            return false;
+    }
+
     static close() {
         conn.then((conn) => {
             conn.close();
